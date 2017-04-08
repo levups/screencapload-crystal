@@ -1,0 +1,13 @@
+name: screencapload
+version: 0.1.0
+
+authors:
+  - Clément Joubert
+
+targets:
+  screencapload:
+    main: src/screencapload.cr
+
+crystal: 0.21.1
+
+license: MIT
