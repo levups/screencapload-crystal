@@ -7,7 +7,7 @@ def log(message)
 end
 
 def exit_fail(message)
-  puts message
+  STDERR.puts message
   exit 1
 end
 
