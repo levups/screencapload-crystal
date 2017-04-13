@@ -1,5 +1,5 @@
 require "http/client"
-require "http" # FormData
+require "http/formdata" # FormData
 
 module Screencapload
   class Screenshot
