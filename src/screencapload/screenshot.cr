@@ -17,8 +17,7 @@ module Screencapload
       if system("/usr/sbin/screencapture", ["-x", "-i", @tempfile.path])
         log "Screenshot taken."
       else
-        puts "Failed to take screenshot."
-        exit(1)
+        exit_fail "Failed to take screenshot."
       end
     end
     
