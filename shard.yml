@@ -1,5 +1,5 @@
 name: screencapload
-version: 0.1.0
+version: 0.2.0
 
 authors:
   - Clément Joubert
@@ -7,6 +7,10 @@ authors:
 targets:
   screencapload:
     main: src/screencapload.cr
+
+dependencies:
+  awscr-s3:
+    github: taylorfinnell/awscr-s3
 
 crystal: 0.21.1
 
